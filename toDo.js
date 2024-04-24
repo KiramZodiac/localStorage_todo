@@ -70,9 +70,7 @@ setTimeout(()=>{
 }
 
 
-
-li.addEventListener('click', () => {
-    li.forEach(element => {
-       element.remove() 
-    });
+ret.addEventListener('click', () => {
+    li.innerText = ""
+    localStorage.clear()
 })
